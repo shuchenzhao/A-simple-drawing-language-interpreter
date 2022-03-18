@@ -1,0 +1,200 @@
+·ÖÎöÎÄ¼þ[D:\VS2019\Compiler3.0\test_OK.dl]...
+enter in program
+  enter in statement
+    enter in origin_statement
+      matchtoken ORIGIN
+      matchtoken IS
+      matchtoken (
+      enter in expression
+        matchtoken 350
+      exit from expression
+      350.000000
+      matchtoken ,
+      enter in expression
+        matchtoken 200
+      exit from expression
+      200.000000
+      matchtoken )
+    exit from origin_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in rot_statement
+      matchtoken ROT
+      matchtoken IS
+      enter in expression
+        matchtoken PI
+        matchtoken /
+        matchtoken 6
+      exit from expression
+      /
+        3.141593
+        6.000000
+    exit from rot_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in scale_statement
+      matchtoken SCALE
+      matchtoken IS
+      matchtoken (
+      enter in expression
+        matchtoken 2
+      exit from expression
+      2.000000
+      matchtoken ,
+      enter in expression
+        matchtoken 1
+      exit from expression
+      1.000000
+      matchtoken )
+    exit from scale_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in for_statement
+      matchtoken FOR
+      matchtoken T
+      matchtoken FROM
+      enter in expression
+        matchtoken -
+        matchtoken 100
+      exit from expression
+      -
+        0.000000
+        100.000000
+      matchtoken TO
+      enter in expression
+        matchtoken 100
+      exit from expression
+      100.000000
+      matchtoken STEP
+      enter in expression
+        matchtoken 1
+      exit from expression
+      1.000000
+      matchtoken DRAW
+      matchtoken (
+      enter in expression
+        matchtoken T
+      exit from expression
+      T
+      matchtoken ,
+      enter in expression
+        matchtoken 0
+      exit from expression
+      0.000000
+      matchtoken )
+    exit from for_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in for_statement
+      matchtoken FOR
+      matchtoken T
+      matchtoken FROM
+      enter in expression
+        matchtoken -
+        matchtoken 100
+      exit from expression
+      -
+        0.000000
+        100.000000
+      matchtoken TO
+      enter in expression
+        matchtoken 100
+      exit from expression
+      100.000000
+      matchtoken STEP
+      enter in expression
+        matchtoken 1
+      exit from expression
+      1.000000
+      matchtoken DRAW
+      matchtoken (
+      enter in expression
+        matchtoken 0
+      exit from expression
+      0.000000
+      matchtoken ,
+      enter in expression
+        matchtoken T
+      exit from expression
+      T
+      matchtoken )
+    exit from for_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in scale_statement
+      matchtoken SCALE
+      matchtoken IS
+      matchtoken (
+      enter in expression
+        matchtoken 200
+      exit from expression
+      200.000000
+      matchtoken ,
+      enter in expression
+        matchtoken 100
+      exit from expression
+      100.000000
+      matchtoken )
+    exit from scale_statement
+  exit from statement
+  matchtoken ;
+  enter in statement
+    enter in for_statement
+      matchtoken FOR
+      matchtoken T
+      matchtoken FROM
+      enter in expression
+        matchtoken 0
+      exit from expression
+      0.000000
+      matchtoken TO
+      enter in expression
+        matchtoken 2
+        matchtoken *
+        matchtoken PI
+      exit from expression
+      *
+        2.000000
+        3.141593
+      matchtoken STEP
+      enter in expression
+        matchtoken PI
+        matchtoken /
+        matchtoken 50
+      exit from expression
+      /
+        3.141593
+        50.000000
+      matchtoken DRAW
+      matchtoken (
+      enter in expression
+        matchtoken COS
+        matchtoken (
+        enter in expression
+          matchtoken T
+        exit from expression
+        matchtoken )
+      exit from expression
+      0009122B
+        T
+      matchtoken ,
+      enter in expression
+        matchtoken SIN
+        matchtoken (
+        enter in expression
+          matchtoken T
+        exit from expression
+        matchtoken )
+      exit from expression
+      00091122
+        T
+      matchtoken )
+    exit from for_statement
+  exit from statement
+  matchtoken ;
+exit from program

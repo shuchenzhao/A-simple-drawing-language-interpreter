@@ -1,0 +1,7 @@
+origin is (350, 200);	
+rot is pi/6;			
+scale is (2, 1);	
+for t from -100 to 100 step 1 draw (t, 0);
+for t from -100 to 100 step 1 draw (0, t);	
+scale is (200, 100);	
+for t from 0 to 2*pi step pi/50 draw (cos(t),sin(t));
